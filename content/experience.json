@@ -1,0 +1,26 @@
+{
+  "eyebrow": "CAREER PATH",
+  "title": "Work Experience",
+  "items": [
+    {
+      "company": "Tech Solutions Inc.",
+      "date": "2024 - Present",
+      "role": "Senior Full-Stack Developer",
+      "responsibilities": [
+        "Architected and deployed customer-facing web applications using React, Node.js, and PostgreSQL.",
+        "Improved core system throughput by 35% using microservices architecture and Redis caching.",
+        "Automated CI/CD deployment pipelines and containerized microservices with Docker."
+      ]
+    },
+    {
+      "company": "Innovate Digital Labs",
+      "date": "2022 - 2024",
+      "role": "Software Engineer",
+      "responsibilities": [
+        "Spearheaded complete front-end redesigns using TypeScript, Next.js, and Tailwind CSS.",
+        "Engineered responsive real-time analytics dashboards for high-volume enterprise users.",
+        "Optimized web performance and established WCAG AA accessibility compliance across core products."
+      ]
+    }
+  ]
+}

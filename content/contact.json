@@ -1,0 +1,41 @@
+{
+  "eyebrow": "GET IN TOUCH",
+  "title": "Contact Information",
+  "subtitle": "I'm always open to discussing new projects, technical opportunities, or collaborative ventures.",
+  "items": [
+    {
+      "label": "Location",
+      "value": "Bulacan, Philippines",
+      "type": "text",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "label": "Email Address",
+      "value": "cruzrowellt11@gmail.com",
+      "type": "email",
+      "url": "mailto:cruzrowellt11@gmail.com",
+      "icon": "fa-regular fa-envelope"
+    },
+    {
+      "label": "Phone Number",
+      "value": "+63 963 660 7582",
+      "type": "phone",
+      "url": "tel:+6396607582",
+      "icon": "fa-solid fa-phone"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/rowellcruz",
+      "type": "link",
+      "url": "https://github.com/rowellcruz",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/rowell-cruz-4868b7230/",
+      "type": "link",
+      "url": "https://www.linkedin.com/in/rowell-cruz-4868b7230/",
+      "icon": "fa-brands fa-linkedin-in"
+    }
+  ]
+}

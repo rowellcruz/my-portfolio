@@ -1,0 +1,36 @@
+{
+  "eyebrow": "TECH STACK",
+  "title": "Skills & Capabilities",
+  "categories": [
+    {
+      "title": "Frontend Engineering",
+      "icon": "fa-solid fa-laptop-code",
+      "skills": [
+        "HTML5 & Responsive Semantic CSS",
+        "JavaScript (ES6+) & TypeScript",
+        "React.js, Next.js & Vue",
+        "Tailwind CSS, SASS, Glassmorphism"
+      ]
+    },
+    {
+      "title": "Backend & Database",
+      "icon": "fa-solid fa-server",
+      "skills": [
+        "Node.js, Express & NestJS",
+        "Python & FastAPI / Flask",
+        "PostgreSQL, MySQL & MongoDB",
+        "REST APIs & GraphQL"
+      ]
+    },
+    {
+      "title": "DevOps & Tooling",
+      "icon": "fa-solid fa-gears",
+      "skills": [
+        "Git, GitHub Actions & CI/CD",
+        "Docker & Containerization",
+        "Cloud (AWS, Vercel, Supabase)",
+        "Agile & Clean Code Architecture"
+      ]
+    }
+  ]
+}

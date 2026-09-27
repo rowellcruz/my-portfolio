@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Software Engineer & Developer</title>
+  
+  <!-- Inter & JetBrains Mono Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome vector icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#about" class="brand-logo" id="brandLogo" aria-label="Home">
+        <div class="logo-default">
+          <span class="logo-bracket">&lt;</span>Dev<span class="logo-accent">.folio</span><span class="logo-bracket">/&gt;</span>
+        </div>
+        <div class="logo-profile">
+          <div class="logo-avatar-frame">
+            <img src="Dark PFP.jpg" alt="Rowell Cruz Dark" class="logo-avatar-img avatar-dark" decoding="sync" />
+            <img src="Light PFP.jpg" alt="Rowell Cruz Light" class="logo-avatar-img avatar-light" decoding="sync" />
+          </div>
+          <span class="logo-name">Rowell Cruz</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Switch -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta">Get in Touch</a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-content">
+          <span class="eyebrow"><i class="fa-solid fa-terminal"></i> HELLO WORLD, I'M</span>
+          <h1 class="about-name">Rowell Cruz</h1>
+          <h2 class="about-role">Software Engineer & Full-Stack Builder</h2>
+          <p class="about-summary">
+            BS Computer Science graduate (Honors) & passionate technologist dedicated to building performant web architectures, intuitive user interfaces, and scalable back-end solutions. Bridging clean code, modern design systems, and robust data workflows.
+          </p>
+          <div class="about-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span> <i class="fa-solid fa-arrow-down-long"></i>
+            </a>
+            <a href="Rowell_Cruz_CV.pdf" download="Rowell_Cruz_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+
+          <div class="about-socials">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:contact@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="about-avatar-wrapper">
+          <div class="avatar-glow"></div>
+          <div class="avatar-frame">
+            <img src="Dark PFP.jpg" alt="Profile Portrait Dark" class="avatar-img avatar-dark" decoding="sync" fetchpriority="high" />
+            <img src="Light PFP.jpg" alt="Profile Portrait Light" class="avatar-img avatar-light" decoding="sync" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">CAREER PATH</span>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="card-meta">
+                <span class="company-name"><i class="fa-regular fa-building"></i> Tech Solutions Inc.</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2024 - Present</span>
+              </div>
+              <h3 class="role-title">Senior Full-Stack Developer</h3>
+              <ul class="experience-list">
+                <li><i class="fa-solid fa-check"></i> Architected and deployed customer-facing web applications using React, Node.js, and PostgreSQL.</li>
+                <li><i class="fa-solid fa-check"></i> Improved core system throughput by 35% using microservices architecture and Redis caching.</li>
+                <li><i class="fa-solid fa-check"></i> Automated CI/CD deployment pipelines and containerized microservices with Docker.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="card-meta">
+                <span class="company-name"><i class="fa-regular fa-building"></i> Innovate Digital Labs</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2022 - 2024</span>
+              </div>
+              <h3 class="role-title">Software Engineer</h3>
+              <ul class="experience-list">
+                <li><i class="fa-solid fa-check"></i> Spearheaded complete front-end redesigns using TypeScript, Next.js, and Tailwind CSS.</li>
+                <li><i class="fa-solid fa-check"></i> Engineered responsive real-time analytics dashboards for high-volume enterprise users.</li>
+                <li><i class="fa-solid fa-check"></i> Optimized web performance and established WCAG AA accessibility compliance across core products.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">PORTFOLIO</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card project-card">
+            <div class="project-header">
+              <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub Source"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="card-title">Cloud Analytics Engine</h3>
+            <p class="card-text">
+              Real-time telemetry and metrics aggregator handling millions of events daily with customized data visualization widgets and alerts.
+            </p>
+            <div class="tag-cloud">
+              <span class="badge">Node.js</span>
+              <span class="badge">Express</span>
+              <span class="badge">Redis</span>
+              <span class="badge">Chart.js</span>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <div class="project-header">
+              <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub Source"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="card-title">Next-Gen E-Commerce Suite</h3>
+            <p class="card-text">
+              Headless online store platform featuring real-time inventory synchronization, instant search, and integrated multi-currency Stripe checkouts.
+            </p>
+            <div class="tag-cloud">
+              <span class="badge">React</span>
+              <span class="badge">Next.js</span>
+              <span class="badge">Stripe API</span>
+              <span class="badge">Supabase</span>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <div class="project-header">
+              <div class="folder-icon"><i class="fa-regular fa-folder-open"></i></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub Source"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="card-title">AI Automation Workspace</h3>
+            <p class="card-text">
+              Productivity suite leveraging large language models to automate complex repetitive data structuring tasks and document intelligence.
+            </p>
+            <div class="tag-cloud">
+              <span class="badge">Python</span>
+              <span class="badge">FastAPI</span>
+              <span class="badge">OpenAI</span>
+              <span class="badge">Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">TECH STACK</span>
+          <h2 class="section-title">Skills & Capabilities</h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="card skill-card">
+            <div class="skill-head">
+              <i class="fa-solid fa-laptop-code category-icon"></i>
+              <h3 class="card-title">Frontend Engineering</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-check"></i> HTML5 & Responsive Semantic CSS</li>
+              <li><i class="fa-solid fa-check"></i> JavaScript (ES6+) & TypeScript</li>
+              <li><i class="fa-solid fa-check"></i> React.js, Next.js & Vue</li>
+              <li><i class="fa-solid fa-check"></i> Tailwind CSS, SASS, Glassmorphism</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-head">
+              <i class="fa-solid fa-server category-icon"></i>
+              <h3 class="card-title">Backend & Database</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-check"></i> Node.js, Express & NestJS</li>
+              <li><i class="fa-solid fa-check"></i> Python & FastAPI / Flask</li>
+              <li><i class="fa-solid fa-check"></i> PostgreSQL, MySQL & MongoDB</li>
+              <li><i class="fa-solid fa-check"></i> REST APIs & GraphQL</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-head">
+              <i class="fa-solid fa-gears category-icon"></i>
+              <h3 class="card-title">DevOps & Tooling</h3>
+            </div>
+            <ul class="skill-list">
+              <li><i class="fa-solid fa-check"></i> Git, GitHub Actions & CI/CD</li>
+              <li><i class="fa-solid fa-check"></i> Docker & Containerization</li>
+              <li><i class="fa-solid fa-check"></i> Cloud (AWS, Vercel, Supabase)</li>
+              <li><i class="fa-solid fa-check"></i> Agile & Clean Code Architecture</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">CREDENTIALS</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="grid grid-2">
+          <div class="card cert-card">
+            <div class="cert-icon-wrap">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="cert-info">
+              <h3 class="card-title">AWS Certified Solutions Architect – Associate</h3>
+              <p class="cert-issuer">Amazon Web Services</p>
+              <p class="cert-date">Issued Jan 2024 · Valid through Jan 2027</p>
+            </div>
+          </div>
+
+          <div class="card cert-card">
+            <div class="cert-icon-wrap">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-info">
+              <h3 class="card-title">Meta Certified Front-End Developer</h3>
+              <p class="cert-issuer">Meta / Coursera</p>
+              <p class="cert-date">Issued 2023 · Credential ID: META-FE-8924</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT SECTION (COMPACT MULTI-COLUMN GRID) -->
+    <section id="contact" class="section alt-bg">
+      <div class="container contact-container">
+        <div class="section-header text-center">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle">
+            I'm always open to discussing new projects, technical opportunities, or collaborative ventures.
+          </p>
+        </div>
+
+        <div class="contact-list-grid">
+          <!-- Location -->
+          <div class="card contact-item-card">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Bocaue, Bulacan, Philippines</span>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <a href="mailto:your-email@example.com" class="card contact-item-card contact-link-card">
+            <div class="contact-icon-box">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">Email Address</span>
+              <span class="contact-value">your-email@example.com</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square card-external-icon"></i>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+639000000000" class="card contact-item-card contact-link-card">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">Phone Number</span>
+              <span class="contact-value">+63 900 000 0000</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square card-external-icon"></i>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="card contact-item-card contact-link-card">
+            <div class="contact-icon-box">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/your-username</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square card-external-icon"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="card contact-item-card contact-link-card">
+            <div class="contact-icon-box">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="contact-details">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/your-profile</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square card-external-icon"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> DevFolio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#about">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

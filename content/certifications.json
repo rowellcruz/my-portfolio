@@ -1,0 +1,18 @@
+{
+  "eyebrow": "CREDENTIALS",
+  "title": "Certifications",
+  "items": [
+    {
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "Issued Jan 2024 · Valid through Jan 2027",
+      "icon": "fa-solid fa-award"
+    },
+    {
+      "title": "Meta Certified Front-End Developer",
+      "issuer": "Meta / Coursera",
+      "date": "Issued 2023 · Credential ID: META-FE-8924",
+      "icon": "fa-solid fa-certificate"
+    }
+  ]
+}

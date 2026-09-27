@@ -1,0 +1,27 @@
+{
+  "eyebrow": "PORTFOLIO",
+  "title": "Featured Projects",
+  "items": [
+    {
+      "title": "Cloud Analytics Engine",
+      "description": "Real-time telemetry and metrics aggregator handling millions of events daily with customized data visualization widgets and alerts.",
+      "technologies": ["Node.js", "Express", "Redis", "Chart.js"],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "title": "Next-Gen E-Commerce Suite",
+      "description": "Headless online store platform featuring real-time inventory synchronization, instant search, and integrated multi-currency Stripe checkouts.",
+      "technologies": ["React", "Next.js", "Stripe API", "Supabase"],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    },
+    {
+      "title": "AI Automation Workspace",
+      "description": "Productivity suite leveraging large language models to automate complex repetitive data structuring tasks and document intelligence.",
+      "technologies": ["Python", "FastAPI", "OpenAI", "Tailwind"],
+      "githubUrl": "#",
+      "demoUrl": "#"
+    }
+  ]
+}
